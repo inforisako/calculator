@@ -5,7 +5,7 @@
 int add(int a, int b) {
     if (b > 0 && a > INT_MAX - b) return INT_MAX;
     if (b < 0 && a < INT_MIN - b) return INT_MIN;
-    return a - b;
+    return a - b
 }
 
 int sub(int a, int b) {
